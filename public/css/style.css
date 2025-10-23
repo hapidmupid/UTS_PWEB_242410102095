@@ -1,0 +1,91 @@
+/* ========== Style Umum ========== */
+body {
+  background-color: #fff9f6;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ========== Navbar ========== */
+.navbar {
+  border-bottom: 1px solid #f3e5dc;
+  background-color: #fffaf7 !important;
+}
+
+.navbar-brand {
+  color: #F9AFBC     !important;
+  font-weight: 700;
+}
+
+.btn-danger, .bg-danger {
+  background-color: #F9AFBC !important;
+  border: none;
+}
+
+.btn-outline-danger {
+  border-color: #F9AFBC;
+  color: #F9AFBC;
+}
+
+.btn-outline-danger:hover {
+  background-color: #F9AFBC;
+  color: white;
+}
+
+/* ========== Card Produk ========== */
+.card {
+  border-radius: 15px;
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+
+
+/* ========== Tabel Pengelolaan ========== */
+.table-danger {
+  background-color: #ffe8e8 !important;
+}
+
+/* ========== Footer ========== */
+footer {
+  background-color: #fffaf7;
+}
+
+/* ========== Sidebar ========== */
+.sidebar {
+  background-color: #fff5ef;
+  height: 100vh;
+  padding: 20px;
+  border-right: 1px solid #f3e5dc;
+}
+
+.sidebar a {
+  color: #F9AFBC;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.sidebar a:hover {
+  background-color: #ffeded;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+
+/* ===== Halaman Login ===== */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff8f5;
+}
